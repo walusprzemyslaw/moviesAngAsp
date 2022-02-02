@@ -27,18 +27,19 @@
 
   <h4>Summary</h4>
   <app-input-markdown [markdownContent]="model?.summary"
+                      [label]="'Summary'"
                       (changeMarkdown)="changeMarkdown($event)">
 
   </app-input-markdown>
 
   <h4>Select the Genres</h4>
-  <app-multiple-selector [NonSelectedItems]="nonSelectedGeneres" [SelectedItems]="selectedGeneres"></app-multiple-selector>
+  <app-multiple-selector [NonSelectedItems]="nonSelectedGenres" [SelectedItems]="selectedGenres"></app-multiple-selector>
 
   <h4>Select the Theaters</h4>
   <app-multiple-selector [NonSelectedItems]="nonSelectedMovieTheaters" [SelectedItems]="selectedMovieTheaters"></app-multiple-selector>
 
   <h4>Select Actors</h4>
-  <app-actors-autocomplete></app-actors-autocomplete>
+  <app-actors-autocomplete [selectedActors]="selectedActors"></app-actors-autocomplete>
 
 
   <div>

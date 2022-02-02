@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { actorCreationDTO } from '../actors.module';
+import { actorCreationDTO } from '../actors.model';
 import { ActorsService } from '../actors.service';
 
 @Component({

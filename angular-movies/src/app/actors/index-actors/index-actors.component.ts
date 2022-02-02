@@ -1,7 +1,7 @@
 import { HttpResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { PageEvent } from '@angular/material/paginator';
-import { actorDTO } from '../actors.module';
+import { actorDTO } from '../actors.model';
 import { ActorsService } from '../actors.service';
 
 @Component({

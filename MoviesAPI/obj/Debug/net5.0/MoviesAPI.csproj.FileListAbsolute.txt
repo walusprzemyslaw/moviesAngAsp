@@ -11,7 +11,6 @@ C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0
 C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\obj\Debug\net5.0\MoviesAPI.csproj.AssemblyReference.cache
 C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\obj\Debug\net5.0\MoviesAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\obj\Debug\net5.0\MoviesAPI.AssemblyInfoInputs.cache
 C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\obj\Debug\net5.0\MoviesAPI.AssemblyInfo.cs
@@ -65,3 +64,9 @@ C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0
 C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0\NetTopologySuite.dll
+C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0\NetTopologySuite.IO.SqlServerBytes.dll
+C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\obj\Debug\net5.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\RWSwiss\Desktop\App with Angular&ASP.NET\App\MoviesAPI\obj\Debug\net5.0\MoviesAPI.csproj.AssemblyReference.cache

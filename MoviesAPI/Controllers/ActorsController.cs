@@ -36,6 +36,16 @@ namespace MoviesAPI.Controllers
             return mapper.Map<List<ActorDTO>>(actors);
         }
 
+        [HttpPost("searchByName")]
+        public async Task<ActionResult<List<ActorsMovieDTO>>> SearchByName([FromBody] string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                return new List<ActorsMovieDTO>();
+            }
+            return await context.Actors.Where(x => x.Name.Contains(name)).OrderBy(x => x.Name).Select(x => new ActorsMovieDTO { Id = x.Id, Name = x.Name, Picture = x.Picture }).Take(5).ToListAsync();
+        }
+
         [HttpGet("{id:int}")]
         public async Task<ActionResult<ActorDTO>> Get(int id)
         {
@@ -60,6 +70,8 @@ namespace MoviesAPI.Controllers
             await context.SaveChangesAsync();
             return NoContent();
         }        
+
+
         [HttpPut("{id:int}")]
         public async Task<ActionResult> Put(int id, [FromForm] ActorCreationDTO actorCreationDTO)
         {
