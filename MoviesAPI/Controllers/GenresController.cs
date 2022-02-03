@@ -61,7 +61,7 @@ namespace MoviesAPI.Controllers
         //}
         #endregion
 
-        [HttpGet("{Id:int}"/*, Name = "getGenre"*/)] //api/genres/Id  // [HttpGet("example")] //api/genres/example //można także wiecej "{Id:int}/{param2=felipe"
+        [HttpGet("{id:int}")] //api/genres/Id  // [HttpGet("example")] //api/genres/example //można także wiecej "{Id:int}/{param2=felipe"
         public async Task<ActionResult<GenreDTO>> Get(int Id)//, [BindRequired] string param2) //tutaj można także użyć IActionResult i wtedy w returnie: Ok(genre); ale wtedy nie definiujesz zwracanego typu
         {
             var genre = await context.Genres.FirstOrDefaultAsync(x => x.Id == Id);
